@@ -1,0 +1,206 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon/icomoon.eot?1z9v6x");
+  src: url("../fonts/icomoon/icomoon.eot?1z9v6x#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?1z9v6x") format("truetype"), url("../fonts/icomoon/icomoon.woff?1z9v6x") format("woff"), url("../fonts/icomoon/icomoon.svg?1z9v6x#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background: url("https://live.staticflickr.com/3579/3391730784_e9d01094de_b_d.jpg") center no-repeat;
+  width: 100%;
+  background-size: cover;
+  color: black;
+  line-height: 28px;
+  font-size: 15px;
+  font-family: "Raleway", Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5;
+  color: black;
+  font-family: "Raleway", Arial, sans-serif;
+  font-weight: 300;
+  margin: 0 0 30px 0;
+}
+
+h1 {
+  font-size: 46px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+p, ul, ol {
+  margin-bottom: 30px;
+}
+
+a {
+  color: black;
+}
+
+a:hover{
+  background-color: black;
+  color: whitesmoke;
+}
+
+.header {
+  overflow: hidden;
+  background-color: transparent;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: whitesmoke;
+  text-align: center;
+  text-decoration: none;
+  padding: 12px;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 20px;
+  font-size: 2rem;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.footer {
+  overflow: hidden;
+  padding: 20px 10px;
+  
+}
+
+.footer a {
+  float: right;
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px;
+  line-height: 25px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.footer a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.books_guide{
+  display: flex;
+  grid: 100px / 100px 100px 100px;
+  grid-gap: 30px;
+  padding: 10px;
+  text-decoration: none;
+
+}
+
+.books_guide > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.content{
+  display: flex;
+  grid: 100px / 100px 100px 100px;
+  grid-gap: 30px;
+  padding: 10px;
+}
+
+.content > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.title{
+  text-align: center;
+  background: url("https://cultivatedculture.com/wp-content/uploads/2019/05/Chromatic-LinkedIn-Cover-Photo-Background.png") center no-repeat;
+  width: 100%;
+  height: 10vh;
+  background-size: cover;
+  border-radius: 50px;
+}
+
+.content_left h1{
+  background: palevioletred;
+  border-radius: 40px;
+}
+
+.content_right h1{
+  background: palegreen;
+  border-radius: 40px;
+}
+
+.right{
+  height: 400px;
+  width: 100%;
+}
+
+.paragraph{
+  font-size: 2rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: grid;
+}
+
+input[type=submit] {
+  background-color: tomato;
+  color: whitesmoke;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+}
+
+input[type=submit]:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+.col-25 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container_1{
+  background-color: darkcyan;
+}
+
+
